@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../dist/lib",
+  "assets": [
+    "LICENCE",
+    "README.md"
+  ],
+  "lib": {
+    "entryFile": "src/index.ts"
+  }
+}

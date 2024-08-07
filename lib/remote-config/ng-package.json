@@ -1,0 +1,5 @@
+{
+  "lib": {
+    "entryFile": "../src/remote-config/index.ts"
+  }
+}
