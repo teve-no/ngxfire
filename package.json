@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ui": "pnpm update -i --latest"
+    "ui": "pnpm update -i --latest",
+    "push": "pnpm nx release --dry-run"
   },
   "private": true,
   "dependencies": {
