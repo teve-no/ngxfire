@@ -16,6 +16,7 @@
     "sharedGlobals": []
   },
   "release": {
+    "projectsRelationship": "independent",
     "projects": ["lib"]
   },
   "plugins": [
