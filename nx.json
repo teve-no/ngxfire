@@ -16,7 +16,6 @@
     "sharedGlobals": []
   },
   "release": {
-    "projectsRelationship": "independent",
     "projects": ["lib"]
   },
   "plugins": [
@@ -38,6 +37,14 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
+    },
+    "nx-release-publish": {
+      "dependsOn": [
+        "build"
+      ],
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
     },
     "test": {
       "options": {
