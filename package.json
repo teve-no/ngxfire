@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "ui": "pnpm update -i --latest",
-    "push": "pnpm nx release --dry-run"
+    "rel-test": "pnpm nx release --skip-publish --dry-run",
+    "rel": "pnpm nx release --skip-publish",
+    "pub": "pnpm nx run ngxfire:publish"
   },
   "private": true,
   "dependencies": {

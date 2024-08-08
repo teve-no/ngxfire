@@ -21,6 +21,10 @@
         }
       },
       "defaultConfiguration": "production"
+    },
+    "publish": {
+      "command": "nx release publish",
+      "dependsOn": ["build"]
     }
   }
 }
