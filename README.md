@@ -1,6 +1,6 @@
 # ngxfire
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](lib/LICENCE)
+[![License: MIT](https://img.shields.io/npm/l/@teve/ngxfire)](lib/LICENCE)
 [![NPM Version](https://img.shields.io/npm/v/@teve/ngxfire)](https://www.npmjs.com/package/@teve/ngxfire)
 
 **Zoneless AngularFire replacement**
