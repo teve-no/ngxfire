@@ -16,7 +16,7 @@
     "angularfire"
   ],
   "peerDependencies": {
-    "@angular/core": "^18.0.0",
+    "@angular/core": ">=18.0.0",
     "rxjs": "^7.8.1",
     "firebase": "^10.12.0"
   },
