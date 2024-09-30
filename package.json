@@ -11,7 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/core": "18.2.6",
-    "firebase": "10.13.2",
+    "firebase": "10.14.0",
     "rxjs": "7.8.1",
     "tslib": "^2.7.0",
     "zone.js": "0.14.10"
@@ -37,7 +37,7 @@
     "@swc/core": "1.7.28",
     "@swc/helpers": "0.5.13",
     "@types/jest": "29.5.13",
-    "@types/node": "22.7.0",
+    "@types/node": "22.7.4",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
     "@typescript-eslint/utils": "7.18.0",
