@@ -1,3 +1,18 @@
+## 1.2.0 (2024-10-02)
+
+
+### 🚀 Features
+
+- add firebase data connect ([ed422f5](https://github.com/teve-no/ngxfire/commit/ed422f5))
+
+### 📖 Documentation
+
+- note that use of data-connect requires firebase peer >= 10.14.0 ([80f728e](https://github.com/teve-no/ngxfire/commit/80f728e))
+
+### ❤️  Thank You
+
+- Atle Sjønøst
+
 ## 1.1.0 (2024-09-25)
 
 
