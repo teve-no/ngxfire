@@ -16,7 +16,14 @@
     "sharedGlobals": []
   },
   "release": {
-    "projects": ["lib"]
+    "projects": ["lib"],
+    "conventionalCommits": {
+      "types": {
+        "docs": {
+          "changelog": true
+        }
+      }
+    }
   },
   "plugins": [
     {
