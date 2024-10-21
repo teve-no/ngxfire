@@ -1,9 +1,9 @@
-export * from 'firebase/vertexai-preview';
+export * from 'firebase/vertexai';
 
 /* eslint-disable @typescript-eslint/no-unsafe-declaration-merging */
 /* eslint-disable @nx/enforce-module-boundaries */
 import { Injectable, Injector, Optional, makeEnvironmentProviders } from '@angular/core';
-import { VertexAI as IVertexAI } from 'firebase/vertexai-preview';
+import { VertexAI as IVertexAI } from 'firebase/vertexai';
 import { FirebaseApp } from '@teve/ngxfire/app';
 import { AppCheck } from '@teve/ngxfire/app-check';
 
