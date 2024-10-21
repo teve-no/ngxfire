@@ -1,3 +1,17 @@
+# 2.0.0 (2024-10-21)
+
+### 🚀 Features
+
+- ⚠️  update to firebase js sdk 11 BREAKING CHANGE: require firebase 11 ([1409481](https://github.com/teve-no/ngxfire/commit/1409481))
+
+### ⚠️  Breaking Changes
+
+- ⚠️  update to firebase js sdk 11 BREAKING CHANGE: require firebase 11 ([1409481](https://github.com/teve-no/ngxfire/commit/1409481))
+
+### ❤️  Thank You
+
+- Atle Sjønøst
+
 ## 1.2.0 (2024-10-02)
 
 
