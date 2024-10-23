@@ -19,6 +19,7 @@
       "@teve/ngxfire/app": ["lib/src/app/index.ts"],
       "@teve/ngxfire/app-check": ["lib/src/app-check/index.ts"],
       "@teve/ngxfire/auth": ["lib/src/auth/index.ts"],
+      "@teve/ngxfire/data-connect": ["lib/src/data-connect/index.ts"],
       "@teve/ngxfire/database": ["lib/src/database/index.ts"],
       "@teve/ngxfire/firestore": ["lib/src/firestore/index.ts"],
       "@teve/ngxfire/functions": ["lib/src/functions/index.ts"],
@@ -26,7 +27,7 @@
       "@teve/ngxfire/performance": ["lib/src/performance/index.ts"],
       "@teve/ngxfire/remote-config": ["lib/src/remote-config/index.ts"],
       "@teve/ngxfire/storage": ["lib/src/storage/index.ts"],
-      "@teve/ngxfire/vertexai-preview": ["lib/src/vertexai/index.ts"]
+      "@teve/ngxfire/vertexai": ["lib/src/vertexai/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
