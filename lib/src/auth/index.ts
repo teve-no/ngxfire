@@ -7,7 +7,7 @@ import { Auth as IAuth } from 'firebase/auth';
 import { FirebaseApp } from '@teve/ngxfire/app';
 import { AppCheck } from '@teve/ngxfire/app-check';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface Auth extends IAuth {}
 @Injectable()
 export class Auth {}

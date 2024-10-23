@@ -6,7 +6,7 @@ import { Injectable, Injector, makeEnvironmentProviders } from '@angular/core';
 import { FirebasePerformance as IPerformance } from 'firebase/performance';
 import { FirebaseApp } from '@teve/ngxfire/app';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface Performance extends IPerformance {}
 @Injectable()
 export class Performance {}

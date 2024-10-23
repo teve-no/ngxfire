@@ -6,7 +6,7 @@ import { Injectable, Injector, makeEnvironmentProviders } from '@angular/core';
 import { AppCheck as IAppCheck } from 'firebase/app-check';
 import { FirebaseApp } from '@teve/ngxfire/app';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface AppCheck extends IAppCheck {}
 @Injectable()
 export class AppCheck {}

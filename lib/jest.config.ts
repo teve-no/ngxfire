@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default {
   displayName: 'ngxfire',
   preset: '../jest.preset.js',

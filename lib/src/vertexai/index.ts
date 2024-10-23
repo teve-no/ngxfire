@@ -7,7 +7,7 @@ import { VertexAI as IVertexAI } from 'firebase/vertexai';
 import { FirebaseApp } from '@teve/ngxfire/app';
 import { AppCheck } from '@teve/ngxfire/app-check';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface VertexAI extends IVertexAI {}
 @Injectable()
 export class VertexAI {}

@@ -6,7 +6,7 @@ import { Injectable, Injector, makeEnvironmentProviders } from '@angular/core';
 import { RemoteConfig as IRemoteConfig } from 'firebase/remote-config';
 import { FirebaseApp } from '@teve/ngxfire/app';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface RemoteConfig extends IRemoteConfig {}
 @Injectable()
 export class RemoteConfig {}

@@ -8,7 +8,7 @@ import { FirebaseApp } from '@teve/ngxfire/app';
 import { Auth } from '@teve/ngxfire/auth';
 import { AppCheck } from '@teve/ngxfire/app-check';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface Storage extends IStorage {}
 @Injectable()
 export class Storage {}

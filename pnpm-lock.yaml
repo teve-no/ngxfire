@@ -109,6 +109,15 @@ importers:
       '@types/node':
         specifier: 22.7.9
         version: 22.7.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 8.11.0
+        version: 8.11.0(@typescript-eslint/parser@8.11.0(eslint@9.13.0(jiti@1.21.6))(typescript@5.5.4))(eslint@9.13.0(jiti@1.21.6))(typescript@5.5.4)
+      '@typescript-eslint/parser':
+        specifier: 8.11.0
+        version: 8.11.0(eslint@9.13.0(jiti@1.21.6))(typescript@5.5.4)
+      '@typescript-eslint/utils':
+        specifier: 8.11.0
+        version: 8.11.0(eslint@9.13.0(jiti@1.21.6))(typescript@5.5.4)
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.4.47)

@@ -6,7 +6,7 @@ import { Injectable, Injector, makeEnvironmentProviders } from '@angular/core';
 import { Analytics as IAnalytics } from 'firebase/analytics';
 import { FirebaseApp } from '@teve/ngxfire/app';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface Analytics extends IAnalytics {}
 @Injectable()
 export class Analytics {}

@@ -1,11 +1,10 @@
 export * from 'firebase/app';
 
 /* eslint-disable @typescript-eslint/no-unsafe-declaration-merging */
-/* eslint-disable @nx/enforce-module-boundaries */
 import { Injectable, Injector, makeEnvironmentProviders, NgZone, ɵNoopNgZone } from '@angular/core';
 import { FirebaseApp as IFirebaseApp } from 'firebase/app';
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
+// eslint-disable-next-line @typescript-eslint/no-empty-interface, @typescript-eslint/no-empty-object-type
 export interface FirebaseApp extends IFirebaseApp {}
 @Injectable()
 export class FirebaseApp {}
