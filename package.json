@@ -22,7 +22,7 @@
     }
   },
   "optionalDependencies": {
-    "lmdb": "3.1.4"
+    "lmdb": "3.1.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "18.2.11",

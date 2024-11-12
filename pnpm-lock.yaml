@@ -28,8 +28,8 @@ importers:
         version: 0.14.10
     optionalDependencies:
       lmdb:
-        specifier: 3.1.4
-        version: 3.1.4
+        specifier: 3.1.5
+        version: 3.1.5
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: 18.2.11
@@ -2079,33 +2079,33 @@ packages:
     peerDependencies:
       '@inquirer/prompts': '>= 3 < 6'
 
-  '@lmdb/lmdb-darwin-arm64@3.1.4':
-    resolution: {integrity: sha512-bXwBegGNDGAlshGqUmV8MxVFPsqEpU2yWWxoJ4AA4UkEd7gA1Rzh7KtvM5Tww0dQfp5t+P/SjNV3vjpAgof+uA==}
+  '@lmdb/lmdb-darwin-arm64@3.1.5':
+    resolution: {integrity: sha512-ue5PSOzHMCIYrfvPP/MRS6hsKKLzqqhcdAvJCO8uFlDdj598EhgnacuOTuqA6uBK5rgiZXfDWyb7DVZSiBKxBA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@lmdb/lmdb-darwin-x64@3.1.4':
-    resolution: {integrity: sha512-cb1/yeoUfWhVWqo8VImUWo6bXVn57AHPX98VqIkpfRw5Yh0z2DHPBZmsELb1OLJKeikAAOyxM+vPWRJYtAg9rw==}
+  '@lmdb/lmdb-darwin-x64@3.1.5':
+    resolution: {integrity: sha512-CGhsb0R5vE6mMNCoSfxHFD8QTvBHM51gs4DBeigTYHWnYv2V5YpJkC4rMo5qAAFifuUcc0+a8a3SIU0c9NrfNw==}
     cpu: [x64]
     os: [darwin]
 
-  '@lmdb/lmdb-linux-arm64@3.1.4':
-    resolution: {integrity: sha512-Hs1cmv8SKEkczsiQbRYVeqI7vzpJ0LI29RyeaVNDDFJxzoua7IcuyG0wSXu12kpXlGTTLVOh1Wp4rK79Ixpxmg==}
+  '@lmdb/lmdb-linux-arm64@3.1.5':
+    resolution: {integrity: sha512-LAjaoOcBHGj6fiYB8ureiqPoph4eygbXu4vcOF+hsxiY74n8ilA7rJMmGUT0K0JOB5lmRQHSmor3mytRjS4qeQ==}
     cpu: [arm64]
     os: [linux]
 
-  '@lmdb/lmdb-linux-arm@3.1.4':
-    resolution: {integrity: sha512-9O3kU6i7crV0vi+ImbZG6SkD+T8sxjbugq4pY424tjV8X/EjSfs1E0n25We5Z7qpJFxZSJZKsv40tJlz1w4pLg==}
+  '@lmdb/lmdb-linux-arm@3.1.5':
+    resolution: {integrity: sha512-3WeW328DN+xB5PZdhSWmqE+t3+44xWXEbqQ+caWJEZfOFdLp9yklBZEbVqVdqzznkoaXJYxTCp996KD6HmANeg==}
     cpu: [arm]
     os: [linux]
 
-  '@lmdb/lmdb-linux-x64@3.1.4':
-    resolution: {integrity: sha512-e/xPxFjSBzuN7/nb5WBYO1t9X1NBiNYy+gvWB3rb95K2W5qJU9fnjx+CNFp7ucvQZWF08EsVzMBa7eXKGGmHjg==}
+  '@lmdb/lmdb-linux-x64@3.1.5':
+    resolution: {integrity: sha512-k/IklElP70qdCXOQixclSl2GPLFiopynGoKX1FqDd1/H0E3Fo1oPwjY2rEVu+0nS3AOw1sryStdXk8CW3cVIsw==}
     cpu: [x64]
     os: [linux]
 
-  '@lmdb/lmdb-win32-x64@3.1.4':
-    resolution: {integrity: sha512-mUcWgKmpbquKaDEcJ+FBtJpcqHvJW2Ce+GKMP/B/Hm9IxGjUfGs0aGlax2Nh/mjzXx/7qfwyCGD8y+KXfDuMsA==}
+  '@lmdb/lmdb-win32-x64@3.1.5':
+    resolution: {integrity: sha512-KYar6W8nraZfSJspcK7Kp7hdj238X/FNauYbZyrqPBrtsXI1hvI4/KcRcRGP50aQoV7fkKDyJERlrQGMGTZUsA==}
     cpu: [x64]
     os: [win32]
 
@@ -5364,8 +5364,8 @@ packages:
     resolution: {integrity: sha512-opevsywziHd3zHCVQGAj8zu+Z3yHNkkoYhWIGnq54RrCVwLz0MozotJEDnKsIBLvkfLGN6BLOyAeRrYI0pKA4g==}
     engines: {node: '>=18.0.0'}
 
-  lmdb@3.1.4:
-    resolution: {integrity: sha512-M3P0HBm0e6SUCrWqMf+wjs5LTRQekh1TtC10e3NjCfLECCXLRXHFROG2kErdyyv2MQ5335Qvb3KQKCSLUuwUDg==}
+  lmdb@3.1.5:
+    resolution: {integrity: sha512-46Mch5Drq+A93Ss3gtbg+Xuvf5BOgIuvhKDWoGa3HcPHI6BL2NCOkRdSx1D4VfzwrxhnsjbyIVsLRlQHu6URvw==}
     hasBin: true
 
   loader-runner@4.3.0:
@@ -10234,22 +10234,22 @@ snapshots:
       '@inquirer/prompts': 5.3.8
       '@inquirer/type': 1.5.5
 
-  '@lmdb/lmdb-darwin-arm64@3.1.4':
+  '@lmdb/lmdb-darwin-arm64@3.1.5':
     optional: true
 
-  '@lmdb/lmdb-darwin-x64@3.1.4':
+  '@lmdb/lmdb-darwin-x64@3.1.5':
     optional: true
 
-  '@lmdb/lmdb-linux-arm64@3.1.4':
+  '@lmdb/lmdb-linux-arm64@3.1.5':
     optional: true
 
-  '@lmdb/lmdb-linux-arm@3.1.4':
+  '@lmdb/lmdb-linux-arm@3.1.5':
     optional: true
 
-  '@lmdb/lmdb-linux-x64@3.1.4':
+  '@lmdb/lmdb-linux-x64@3.1.5':
     optional: true
 
-  '@lmdb/lmdb-win32-x64@3.1.4':
+  '@lmdb/lmdb-win32-x64@3.1.5':
     optional: true
 
   '@module-federation/bridge-react-webpack-plugin@0.6.9':
@@ -14280,7 +14280,7 @@ snapshots:
       rfdc: 1.4.1
       wrap-ansi: 9.0.0
 
-  lmdb@3.1.4:
+  lmdb@3.1.5:
     dependencies:
       msgpackr: 1.11.2
       node-addon-api: 6.1.0
@@ -14288,12 +14288,12 @@ snapshots:
       ordered-binary: 1.5.3
       weak-lru-cache: 1.2.2
     optionalDependencies:
-      '@lmdb/lmdb-darwin-arm64': 3.1.4
-      '@lmdb/lmdb-darwin-x64': 3.1.4
-      '@lmdb/lmdb-linux-arm': 3.1.4
-      '@lmdb/lmdb-linux-arm64': 3.1.4
-      '@lmdb/lmdb-linux-x64': 3.1.4
-      '@lmdb/lmdb-win32-x64': 3.1.4
+      '@lmdb/lmdb-darwin-arm64': 3.1.5
+      '@lmdb/lmdb-darwin-x64': 3.1.5
+      '@lmdb/lmdb-linux-arm': 3.1.5
+      '@lmdb/lmdb-linux-arm64': 3.1.5
+      '@lmdb/lmdb-linux-x64': 3.1.5
+      '@lmdb/lmdb-win32-x64': 3.1.5
     optional: true
 
   loader-runner@4.3.0: {}
