@@ -1,3 +1,17 @@
+## 2.0.1 (2025-01-22)
+
+### 🩹 Fixes
+
+- block use in SSR, only support zoneless CSR ([98a56a3](https://github.com/teve-no/ngxfire/commit/98a56a3))
+
+### 📖 Documentation
+
+- update peer dependencies in readme ([a3a31da](https://github.com/teve-no/ngxfire/commit/a3a31da))
+
+### ❤️ Thank You
+
+- Atle Sjønøst
+
 # 2.0.0 (2024-10-21)
 
 ### 🚀 Features
