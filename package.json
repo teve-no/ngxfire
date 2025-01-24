@@ -50,7 +50,7 @@
     "eslint-config-prettier": "9.1.0",
     "jsonc-eslint-parser": "2.4.0",
     "less": "4.2.2",
-    "ng-packagr": "19.1.0",
+    "ng-packagr": "19.1.1",
     "nx": "20.3.3",
     "postcss": "8.5.1",
     "postcss-url": "10.1.3",
