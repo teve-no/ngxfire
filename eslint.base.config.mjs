@@ -1,6 +1,7 @@
-const nx = require('@nx/eslint-plugin');
+import nx from '@nx/eslint-plugin';
+import stylistic from '@stylistic/eslint-plugin';
 
-module.exports = [
+export default [
   ...nx.configs['flat/base'],
   ...nx.configs['flat/typescript'],
   ...nx.configs['flat/javascript'],
@@ -28,7 +29,7 @@ module.exports = [
   {
     files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
     // Override or add rules here
-    plugins: { '@stylistic': require('@stylistic/eslint-plugin') },
+    plugins: { '@stylistic': stylistic },
     rules: {
       '@stylistic/no-extra-semi': 'error'
     }
