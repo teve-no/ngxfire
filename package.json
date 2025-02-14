@@ -17,6 +17,11 @@
     "tslib": "^2.8.1",
     "zone.js": "0.15.0"
   },
+  "pnpm": {
+    "overrides": {
+      "@module-federation/dts-plugin>koa": "2.15.4"
+    }
+  },
   "devDependencies": {
     "@analogjs/vite-plugin-angular": "1.13.0",
     "@analogjs/vitest-angular": "1.13.0",
