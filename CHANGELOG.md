@@ -1,3 +1,13 @@
+## 2.1.0 (2025-05-20)
+
+### 🚀 Features
+
+- add firebase ai ([8d5344f](https://github.com/teve-no/ngxfire/commit/8d5344f))
+
+### ❤️ Thank You
+
+- Atle Sjønøst
+
 ## 2.0.1 (2025-01-22)
 
 ### 🩹 Fixes
