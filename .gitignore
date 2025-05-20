@@ -44,3 +44,5 @@ vite.config.*.timestamp*
 vitest.config.*.timestamp*
 
 .angular
+.cursor/rules/nx-rules.mdc
+.github/instructions/nx.instructions.md
