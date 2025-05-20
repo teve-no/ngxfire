@@ -13,3 +13,4 @@ Firebase peer dependencies:
 1.0: ^10.12.0  
 1.2: ^10.12.0 (use of data-connect requires ^10.14.0)  
 2.0: ^11.0.0
+2.1: ^11.0.0 (use of ai requires ^11.8.0)
