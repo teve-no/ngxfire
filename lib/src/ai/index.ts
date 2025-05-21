@@ -11,5 +11,5 @@ import { AppCheck } from '@teve/ngxfire/app-check';
 export interface AI extends IAI {}
 @Injectable()
 export class AI {}
-export const provideVertexAI = (fn: (injector: Injector) => IAI) =>
+export const provideAI = (fn: (injector: Injector) => IAI) =>
   makeEnvironmentProviders([{ provide: AI, useFactory: fn, deps: [Injector, FirebaseApp, [new Optional(), AppCheck]] }]);
