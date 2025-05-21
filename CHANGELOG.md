@@ -1,3 +1,13 @@
+## 2.1.1 (2025-05-21)
+
+### 🩹 Fixes
+
+- rename to provideAI ([7ca48ed](https://github.com/teve-no/ngxfire/commit/7ca48ed))
+
+### ❤️ Thank You
+
+- Atle Sjønøst
+
 ## 2.1.0 (2025-05-20)
 
 ### 🚀 Features
