@@ -29,7 +29,6 @@
     "@angular/compiler-cli": "19.2.12",
     "@angular/language-service": "19.2.12",
     "@angular/platform-browser": "19.2.12",
-    "@angular/platform-browser-dynamic": "19.2.12",
     "@nx/angular": "21.1.1",
     "@nx/eslint": "21.1.1",
     "@nx/eslint-plugin": "21.1.1",
