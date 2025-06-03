@@ -48,6 +48,7 @@
     "eslint": "9.28.0",
     "eslint-config-prettier": "10.1.5",
     "jiti": "2.4.2",
+    "jsdom": "26.1.0",
     "jsonc-eslint-parser": "2.4.0",
     "less": "4.3.0",
     "ng-packagr": "20.0.0",
