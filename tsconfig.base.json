@@ -15,6 +15,7 @@
     "baseUrl": ".",
     "paths": {
       "@teve/ngxfire": ["lib/src/index.ts"],
+      "@teve/ngxfire/ai": ["lib/src/ai/index.ts"],
       "@teve/ngxfire/analytics": ["lib/src/analytics/index.ts"],
       "@teve/ngxfire/app": ["lib/src/app/index.ts"],
       "@teve/ngxfire/app-check": ["lib/src/app-check/index.ts"],
