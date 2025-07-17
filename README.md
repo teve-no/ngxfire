@@ -15,3 +15,4 @@ This library doesn't zone-wrap the firebase methods, but keeps the angularfire a
 | 1.2     | ^10.12.0 (use of data-connect requires ^10.14.0) |
 | 2.0     | ^11.0.0                                          |
 | 2.1     | ^11.0.0 (use of ai requires ^11.8.0)             |
+| 3.0     | ^12.0.0                                          |
