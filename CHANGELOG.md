@@ -1,3 +1,17 @@
+# 3.0.0 (2025-07-17)
+
+### 🚀 Features
+
+- ⚠️  update to firebase js sdk 12 ([225a2b9](https://github.com/teve-no/ngxfire/commit/225a2b9))
+
+### ⚠️  Breaking Changes
+
+- ⚠️  update to firebase js sdk 12 ([225a2b9](https://github.com/teve-no/ngxfire/commit/225a2b9))
+
+### ❤️ Thank You
+
+- Atle Sjønøst
+
 ## 2.1.1 (2025-05-21)
 
 ### 🩹 Fixes
