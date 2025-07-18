@@ -68,7 +68,7 @@ importers:
         version: 21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(@zkochan/js-yaml@0.0.7)(eslint@9.31.0(jiti@2.4.2))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))
       '@nx/eslint-plugin':
         specifier: 21.3.0
-        version: 21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-config-prettier@10.1.5(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))(typescript@5.8.3)
+        version: 21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-config-prettier@10.1.8(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))(typescript@5.8.3)
       '@nx/js':
         specifier: 21.3.0
         version: 21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))
@@ -112,8 +112,8 @@ importers:
         specifier: 9.31.0
         version: 9.31.0(jiti@2.4.2)
       eslint-config-prettier:
-        specifier: 10.1.5
-        version: 10.1.5(eslint@9.31.0(jiti@2.4.2))
+        specifier: 10.1.8
+        version: 10.1.8(eslint@9.31.0(jiti@2.4.2))
       jiti:
         specifier: 2.4.2
         version: 2.4.2
@@ -4184,8 +4184,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@10.1.5:
-    resolution: {integrity: sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4474,8 +4474,8 @@ packages:
     resolution: {integrity: sha512-XUBA9XClHbnJWSfBzjkm6RvPsyg3sryZt06BEQoXcF7EK/xpGaQYJgQKDJSUH5SGZ76Y7pFx1QBnXz09rU5Fbw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  fs-monkey@1.0.6:
-    resolution: {integrity: sha512-b1FMfwetIKymC0eioW7mTywihSQE4oLzQn1dB6rZB5fx/3NpNEdAWeCSMB+60/AeT0TCXsxzAlcYVEFCTAksWg==}
+  fs-monkey@1.1.0:
+    resolution: {integrity: sha512-QMUezzXWII9EV5aTFXW1UBVUO77wYPpjqIF8/AviUCThNeSYZykpoTixUeaNNBwmCev0AMDWMAni+f8Hxb1IFw==}
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -10450,7 +10450,7 @@ snapshots:
       tslib: 2.8.1
       yargs-parser: 21.1.1
 
-  '@nx/eslint-plugin@21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-config-prettier@10.1.5(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))(typescript@5.8.3)':
+  '@nx/eslint-plugin@21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(@typescript-eslint/parser@8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(eslint-config-prettier@10.1.8(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))(typescript@5.8.3)':
     dependencies:
       '@nx/devkit': 21.3.0(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))
       '@nx/js': 21.3.0(@babel/traverse@7.28.0)(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17))(nx@21.3.0(@swc-node/register@1.10.10(@swc/core@1.13.0(@swc/helpers@0.5.17))(@swc/types@0.1.23)(typescript@5.8.3))(@swc/core@1.13.0(@swc/helpers@0.5.17)))
@@ -10465,7 +10465,7 @@ snapshots:
       semver: 7.7.2
       tslib: 2.8.1
     optionalDependencies:
-      eslint-config-prettier: 10.1.5(eslint@9.31.0(jiti@2.4.2))
+      eslint-config-prettier: 10.1.8(eslint@9.31.0(jiti@2.4.2))
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -12698,7 +12698,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@10.1.5(eslint@9.31.0(jiti@2.4.2)):
+  eslint-config-prettier@10.1.8(eslint@9.31.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.31.0(jiti@2.4.2)
 
@@ -13108,7 +13108,7 @@ snapshots:
     dependencies:
       minipass: 7.1.2
 
-  fs-monkey@1.0.6: {}
+  fs-monkey@1.1.0: {}
 
   fsevents@2.3.3:
     optional: true
@@ -13934,7 +13934,7 @@ snapshots:
 
   memfs@3.5.3:
     dependencies:
-      fs-monkey: 1.0.6
+      fs-monkey: 1.1.0
 
   memfs@4.17.2:
     dependencies:
