@@ -8,7 +8,7 @@
     "isolatedModules": true,
     "importHelpers": true,
     "target": "es2022",
-    "module": "es2022",
+    "module": "preserve",
     "lib": ["es2022", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
