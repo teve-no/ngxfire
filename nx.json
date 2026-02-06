@@ -29,12 +29,6 @@
       "options": {
         "targetName": "lint"
       }
-    },
-    {
-      "plugin": "@nx/vitest",
-      "options": {
-        "testTargetName": "test"
-      }
     }
   ],
   "targetDefaults": {
@@ -48,10 +42,9 @@
         "packageRoot": "dist/{projectRoot}"
       }
     },
-    "test": {
-      "options": {
-        "args": ["--passWithNoTests"]
-      }
+    "@nx/angular:unit-test": {
+      "cache": true,
+      "inputs": ["default", "^production"]
     }
   },
   "generators": {
