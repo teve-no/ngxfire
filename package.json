@@ -2,7 +2,7 @@
   "name": "@teve/ngxfire",
   "version": "0.0.0",
   "license": "MIT",
-  "packageManager": "pnpm@10.28.2",
+  "packageManager": "pnpm@10.29.2",
   "engines": {
     "node": ">=24.13"
   },
@@ -31,17 +31,17 @@
     "@angular/compiler-cli": "21.1.3",
     "@angular/language-service": "21.1.3",
     "@angular/platform-browser": "21.1.3",
-    "@nx/angular": "22.4.5",
-    "@nx/eslint": "22.4.5",
-    "@nx/eslint-plugin": "22.4.5",
-    "@nx/js": "22.4.5",
-    "@nx/workspace": "22.4.5",
+    "@nx/angular": "22.5.0",
+    "@nx/eslint": "22.5.0",
+    "@nx/eslint-plugin": "22.5.0",
+    "@nx/js": "22.5.0",
+    "@nx/workspace": "22.5.0",
     "@schematics/angular": "21.1.3",
-    "@stylistic/eslint-plugin": "5.7.1",
+    "@stylistic/eslint-plugin": "5.8.0",
     "@swc-node/register": "1.11.1",
     "@swc/core": "1.15.11",
     "@swc/helpers": "0.5.18",
-    "@types/node": "25.2.1",
+    "@types/node": "25.2.2",
     "angular-eslint": "21.2.0",
     "autoprefixer": "10.4.24",
     "eslint": "9.39.2",
@@ -51,14 +51,17 @@
     "jsonc-eslint-parser": "2.4.2",
     "less": "4.5.1",
     "ng-packagr": "21.1.0",
-    "nx": "22.4.5",
+    "nx": "22.5.0",
     "postcss": "8.5.6",
     "postcss-url": "10.1.3",
     "prettier": "3.8.1",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.54.0"
+    "typescript-eslint": "8.55.0"
   },
   "pnpm": {
+    "overrides": {
+      "@nx/rspack>@module-federation/enhanced": "*"
+    },
     "onlyBuiltDependencies": [
       "@firebase/util",
       "@parcel/watcher",
