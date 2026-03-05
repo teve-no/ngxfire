@@ -60,6 +60,7 @@
   "pnpm": {
     "overrides": {
       "@nx/angular>@nx/module-federation": "-",
+      "@nx/angular>@nx/webpack": "-",
       "@nx/angular>@nx/rspack": "-"
     },
     "onlyBuiltDependencies": [
