@@ -59,8 +59,8 @@
   },
   "pnpm": {
     "overrides": {
-      "@nx/module-federation": "-",
-      "@nx/rspack": "-"
+      "@nx/angular>@nx/module-federation": "-",
+      "@nx/angular>@nx/rspack": "-"
     },
     "onlyBuiltDependencies": [
       "@firebase/util",
