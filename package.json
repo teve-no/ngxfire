@@ -73,9 +73,6 @@
       "nx",
       "oxc-resolver",
       "protobufjs"
-    ],
-    "ignoredBuiltDependencies": [
-      "less"
     ]
   }
 }
