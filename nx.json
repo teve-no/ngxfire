@@ -52,5 +52,6 @@
       "linter": "eslint",
       "unitTestRunner": "vitest-angular"
     }
-  }
+  },
+  "analytics": false
 }
