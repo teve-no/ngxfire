@@ -1,1 +1,13 @@
+allowBuilds:
+  '@firebase/util': true
+  '@parcel/watcher': true
+  '@swc/core': true
+  'esbuild': true
+  'lmdb': true
+  'msgpackr-extract': true
+  'nx': true
+  'oxc-resolver': true
+  'protobufjs': true
+minimumReleaseAge: 0
 trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 1440

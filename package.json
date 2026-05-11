@@ -63,17 +63,6 @@
       "@nx/angular>@nx/webpack": "-",
       "@nx/angular>@nx/rspack": "-",
       "@nx/angular>@angular-devkit/build-angular": "-"
-    },
-    "onlyBuiltDependencies": [
-      "@firebase/util",
-      "@parcel/watcher",
-      "@swc/core",
-      "esbuild",
-      "lmdb",
-      "msgpackr-extract",
-      "nx",
-      "oxc-resolver",
-      "protobufjs"
-    ]
+    }
   }
 }
