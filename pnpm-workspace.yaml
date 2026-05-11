@@ -2,12 +2,17 @@ allowBuilds:
   '@firebase/util': true
   '@parcel/watcher': true
   '@swc/core': true
-  'esbuild': true
-  'lmdb': true
-  'msgpackr-extract': true
-  'nx': true
-  'oxc-resolver': true
-  'protobufjs': true
+  esbuild: true
+  lmdb: true
+  msgpackr-extract: true
+  nx: true
+  oxc-resolver: true
+  protobufjs: true
 minimumReleaseAge: 0
+overrides:
+  '@nx/angular>@angular-devkit/build-angular': '-'
+  '@nx/angular>@nx/module-federation': '-'
+  '@nx/angular>@nx/rspack': '-'
+  '@nx/angular>@nx/webpack': '-'
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 1440
