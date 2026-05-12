@@ -41,7 +41,7 @@
     "@swc-node/register": "1.11.1",
     "@swc/core": "1.15.33",
     "@swc/helpers": "0.5.21",
-    "@types/node": "25.6.2",
+    "@types/node": "25.7.0",
     "angular-eslint": "21.3.1",
     "autoprefixer": "10.5.0",
     "eslint": "10.3.0",
