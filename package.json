@@ -44,7 +44,7 @@
     "@types/node": "25.8.0",
     "angular-eslint": "21.4.0",
     "autoprefixer": "10.5.0",
-    "eslint": "10.3.0",
+    "eslint": "10.4.0",
     "eslint-config-prettier": "10.1.8",
     "jiti": "2.7.0",
     "jsdom": "29.1.1",
