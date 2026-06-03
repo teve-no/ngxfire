@@ -2,7 +2,7 @@
   "name": "@teve/ngxfire",
   "version": "0.0.0",
   "license": "MIT",
-  "packageManager": "pnpm@10.34.1",
+  "packageManager": "pnpm@11.5.1",
   "engines": {
     "node": ">=24.13"
   },
@@ -50,19 +50,11 @@
     "jsdom": "29.1.1",
     "jsonc-eslint-parser": "3.1.0",
     "less": "4.6.4",
-    "ng-packagr": "21.2.3",
+    "ng-packagr": "21.2.5",
     "nx": "22.7.5",
     "postcss": "8.5.15",
     "prettier": "3.8.3",
     "typescript": "6.0.3",
     "typescript-eslint": "8.60.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "@nx/angular>@nx/module-federation": "-",
-      "@nx/angular>@nx/webpack": "-",
-      "@nx/angular>@nx/rspack": "-",
-      "@nx/angular>@angular-devkit/build-angular": "-"
-    }
   }
 }
