@@ -6,9 +6,8 @@ settings:
 
 overrides:
   '@nx/angular>@nx/module-federation': '-'
-  '@nx/angular>@nx/webpack': '-'
   '@nx/angular>@nx/rspack': '-'
-  '@nx/angular>@angular-devkit/build-angular': '-'
+  '@nx/angular>@nx/webpack': '-'
 
 importers:
 
@@ -2016,7 +2015,7 @@ packages:
   '@nx/angular@23.0.2':
     resolution: {integrity: sha512-2xeTEyMgeUMLN9YFSnlQj38JxGjkOUmkSKvRCcrTJNZFuZpxMxwW/oXkPJ3EBBjryAMWCA/qyAh3Te0dokw0/g==}
     peerDependencies:
-      '@angular-devkit/build-angular': '*'
+      '@angular-devkit/build-angular': '>= 19.0.0 < 22.0.0'
       '@angular-devkit/core': '>= 19.0.0 < 22.0.0'
       '@angular-devkit/schematics': '>= 19.0.0 < 22.0.0'
       '@angular/build': '>= 19.0.0 < 22.0.0'

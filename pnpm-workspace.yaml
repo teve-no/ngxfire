@@ -10,7 +10,6 @@ allowBuilds:
   protobufjs: true
 minimumReleaseAge: 0
 overrides:
-  '@nx/angular>@angular-devkit/build-angular': '-'
   '@nx/angular>@nx/module-federation': '-'
   '@nx/angular>@nx/rspack': '-'
   '@nx/angular>@nx/webpack': '-'
