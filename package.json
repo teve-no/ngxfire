@@ -2,7 +2,7 @@
   "name": "@teve/ngxfire",
   "version": "0.0.0",
   "license": "MIT",
-  "packageManager": "pnpm@11.13.1",
+  "packageManager": "pnpm@11.15.0",
   "engines": {
     "node": ">=24.13"
   },
@@ -38,7 +38,7 @@
     "@nx/workspace": "23.1.0",
     "@schematics/angular": "22.0.7",
     "@stylistic/eslint-plugin": "5.10.0",
-    "@swc-node/register": "1.12.0",
+    "@swc-node/register": "1.12.1",
     "@swc/core": "1.15.43",
     "@swc/helpers": "0.5.23",
     "@types/node": "26.1.1",
@@ -49,7 +49,7 @@
     "jiti": "2.7.0",
     "jsdom": "29.1.1",
     "jsonc-eslint-parser": "3.1.0",
-    "less": "4.6.7",
+    "less": "4.7.0",
     "ng-packagr": "22.0.1",
     "nx": "23.1.0",
     "postcss": "8.5.19",
