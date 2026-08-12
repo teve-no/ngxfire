@@ -4,7 +4,10 @@
   "license": "MIT",
   "packageManager": "pnpm@11.21.0",
   "engines": {
-    "node": ">=24.13"
+    "node": ">=24.13",
+    "pnpm": ">=11.21",
+    "npm": "use pnpm",
+    "yarn": "use pnpm"
   },
   "scripts": {
     "ui": "pnpm update -i --latest",
