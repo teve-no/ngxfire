@@ -9,9 +9,5 @@ allowBuilds:
   oxc-resolver: true
   protobufjs: true
 minimumReleaseAge: 0
-overrides:
-  '@nx/angular>@nx/module-federation': '-'
-  '@nx/angular>@nx/rspack': '-'
-  '@nx/angular>@nx/webpack': '-'
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 1440
