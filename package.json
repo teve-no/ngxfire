@@ -2,7 +2,7 @@
   "name": "@teve/ngxfire",
   "version": "0.0.0",
   "license": "MIT",
-  "packageManager": "pnpm@11.27.1",
+  "packageManager": "pnpm@11.28.0",
   "engines": {
     "node": ">=24.13",
     "pnpm": ">=11.24",
@@ -44,7 +44,7 @@
     "@swc-node/register": "1.12.1",
     "@swc/core": "1.16.2",
     "@swc/helpers": "0.5.23",
-    "@types/node": "26.6.2",
+    "@types/node": "26.6.3",
     "@typescript/native": "npm:typescript@^7.0.2",
     "angular-eslint": "22.5.0",
     "autoprefixer": "10.6.1",
