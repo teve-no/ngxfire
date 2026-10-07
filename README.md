@@ -16,3 +16,4 @@ This library doesn't zone-wrap the firebase methods, but keeps the angularfire a
 | 2.0     | ^11.0.0                                          |
 | 2.1     | ^11.0.0 (use of ai requires ^11.8.0)             |
 | 3.0     | ^12.0.0                                          |
+| 3.1     | ^12.0.0 || ^13.0.0                               |
