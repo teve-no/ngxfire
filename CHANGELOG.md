@@ -1,3 +1,14 @@
+## 3.1.0 (2026-11-06)
+
+### 🚀 Features
+
+- support firebase 13 as peer ([d6280c1](https://github.com/teve-no/ngxfire/commit/d6280c1))
+- support crashlytics ([8f4df36](https://github.com/teve-no/ngxfire/commit/8f4df36))
+
+### ❤️ Thank You
+
+- Atle Sjønøst
+
 # 3.0.0 (2025-07-17)
 
 ### 🚀 Features
