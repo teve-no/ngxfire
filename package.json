@@ -14,7 +14,7 @@
     "next": "nx migrate @angular/core@next && nx migrate @angular/cli@next && nx migrate @schematics/angular@next",
     "rel-test": "pnpm nx release --skip-publish --dry-run",
     "rel": "pnpm nx release --skip-publish",
-    "pub": "pnpm nx run ngxfire:publish"
+    "pub": "set /P PNPM_CONFIG_OTP=OTP: && pnpm nx run ngxfire:publish"
   },
   "private": true,
   "dependencies": {
