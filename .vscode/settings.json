@@ -1,0 +1,4 @@
+{
+    "js/ts.tsdk.path": "node_modules\\@typescript\\native",
+    "js/ts.experimental.useTsgo": true
+}
