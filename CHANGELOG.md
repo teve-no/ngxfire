@@ -1,3 +1,17 @@
+## 3.2.0 (2026-11-08)
+
+### 🚀 Features
+
+- support firestore pipelines ([b9b7400](https://github.com/teve-no/ngxfire/commit/b9b7400))
+
+### 📖 Documentation
+
+- add pipelines support to docs ([d91c6d6](https://github.com/teve-no/ngxfire/commit/d91c6d6))
+
+### ❤️ Thank You
+
+- Atle Sjønøst
+
 ## 3.1.0 (2026-11-06)
 
 ### 🚀 Features
