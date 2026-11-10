@@ -34,11 +34,11 @@
     "@angular/language-service": "22.2.5",
     "@angular/platform-browser": "22.2.5",
     "@eslint/js": "10.0.1",
-    "@nx/angular": "24.0.5",
-    "@nx/eslint": "24.0.5",
-    "@nx/eslint-plugin": "24.0.5",
-    "@nx/js": "24.0.5",
-    "@nx/workspace": "24.0.5",
+    "@nx/angular": "24.0.6",
+    "@nx/eslint": "24.0.6",
+    "@nx/eslint-plugin": "24.0.6",
+    "@nx/js": "24.0.6",
+    "@nx/workspace": "24.0.6",
     "@schematics/angular": "22.2.6",
     "@stylistic/eslint-plugin": "5.10.0",
     "@swc-node/register": "1.12.1",
@@ -55,10 +55,10 @@
     "jsonc-eslint-parser": "3.3.0",
     "less": "4.9.1",
     "ng-packagr": "22.2.6",
-    "nx": "24.0.5",
+    "nx": "24.0.6",
     "postcss": "8.5.32",
     "prettier": "3.9.10",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
-    "typescript-eslint": "8.72.1"
+    "typescript-eslint": "8.72.2"
   }
 }
